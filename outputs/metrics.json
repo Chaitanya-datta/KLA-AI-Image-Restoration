@@ -1,0 +1,11 @@
+{
+  "num_images": 3200,
+  "num_missing_gt": 0,
+  "num_missing_pred": 0,
+  "psnr_mean": 28.35500502973795,
+  "psnr_std": 4.745069731208558,
+  "ssim_mean": 0.7739489012304693,
+  "ssim_std": 0.15201151372757515,
+  "lpips_mean": "not computed (pass --lpips)",
+  "lpips_net": null
+}

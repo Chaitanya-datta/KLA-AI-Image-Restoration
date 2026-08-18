@@ -1,0 +1,51 @@
+{
+  "noisy": {
+    "folder": "data/train/NoisyLR",
+    "num_files": 3200,
+    "num_corrupted": 0,
+    "corrupted_files": [],
+    "shape_distribution": {
+      "(128, 128)": 3200
+    },
+    "dtype_distribution": {
+      "float32": 3200
+    },
+    "global_min": -0.2785630524158478,
+    "global_max": 2.1580049991607666,
+    "mean_of_per_image_min": -0.006798876295082365,
+    "mean_of_per_image_max": 1.3939021714963018,
+    "mean_of_per_image_mean": 0.4335362883156631,
+    "fraction_images_with_max_gt_1": 0.975,
+    "fraction_images_with_min_lt_0": 0.6146875,
+    "num_duplicate_pairs": 0,
+    "duplicate_examples": []
+  },
+  "gt": {
+    "folder": "data/train/GT",
+    "num_files": 3200,
+    "num_corrupted": 0,
+    "corrupted_files": [],
+    "shape_distribution": {
+      "(256, 256)": 3200
+    },
+    "dtype_distribution": {
+      "float32": 3200
+    },
+    "global_min": 0.0,
+    "global_max": 1.0,
+    "mean_of_per_image_min": 0.0,
+    "mean_of_per_image_max": 1.0,
+    "mean_of_per_image_mean": 0.43352844130684387,
+    "fraction_images_with_max_gt_1": 0.0,
+    "fraction_images_with_min_lt_0": 0.0,
+    "num_duplicate_pairs": 0,
+    "duplicate_examples": []
+  },
+  "pairing": {
+    "noisy_without_gt": [],
+    "gt_without_noisy": [],
+    "num_noisy_without_gt": 0,
+    "num_gt_without_noisy": 0,
+    "num_matched_pairs": 3200
+  }
+}

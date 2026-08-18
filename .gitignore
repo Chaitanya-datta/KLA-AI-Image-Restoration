@@ -1,0 +1,24 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Local dataset — never committed, always referenced by path/config
+data/
+FULL_KLA_DATASET/
+
+# Large/generated artifacts — regenerate via train.py / evaluate.py
+artifacts/checkpoints/*.pth
+artifacts/logs/*.log
+outputs/restored_test/*.png
+
+# OS/editor junk
+__MACOSX/
+._*
+.DS_Store
+.idea/
+.vscode/
+KLA_submission/
+KLA_submission 2/
+KLA_submission.zip

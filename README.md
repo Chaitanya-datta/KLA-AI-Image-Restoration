@@ -1,6 +1,6 @@
 # KLA AI Image Restoration — SEMICON India Hackathon 2026
 
-**[TEAM NAME — placeholder]** submission for the KLA Track: *AI-Based Restoration of
+**Team Strive** submission for the KLA Track: *AI-Based Restoration of
 Degraded Images for Semiconductor Inspection*.
 
 ## Project Overview
@@ -291,20 +291,6 @@ python scripts/benchmark_inference.py --input_dir /path/to/Test_NoisyLR/NoisyLR 
 python scripts/validate_submission.py --sample_input /path/to/Test_NoisyLR/NoisyLR
 ```
 
-## Open Questions (need an answer from KLA / organizers, not guessed)
-
-1. **Official evaluation metric(s) and weighting** — the PPTX doesn't specify
-   whether PSNR, SSIM, LPIPS, or a combination determines the leaderboard.
-2. **Exact submission file format** for restored outputs (this repo currently
-   writes `.npy`, matching the input format — confirm if a different format,
-   e.g. `.png`, is required).
-3. **Inference-speed target/threshold**, if any, beyond "benchmarked on H100."
-4. **OOD test protocol** — what makes a test image "dissimilar" per slide 7,
-   and whether source/category metadata exists that we don't currently have.
-5. The official **9-slide submission PPTX template** — only the conceptual
-   kickoff deck was available when this repo was built; slide generation
-   (`submission/`) needs the actual template to match its structure/styling.
-
 ## References
 
 1. T. Kumar, R. Brennan, A. Mileo and M. Bendechache, "Image Data Augmentation
@@ -318,4 +304,3 @@ python scripts/validate_submission.py --sample_input /path/to/Test_NoisyLR/Noisy
 4. V. Monga et al., "Algorithm Unrolling: Interpretable, Efficient Deep
    Learning for Signal and Image Processing," IEEE PM, vol. 38, no. 2, 2021.
 
-(All four references are drawn directly from the official KLA kickoff deck.)
